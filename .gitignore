@@ -1,0 +1,13 @@
+.env
+.idea/
+*.iml
+venv/
+.venv/
+env/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+raw_data/
+processed_data/
