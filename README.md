@@ -20,3 +20,11 @@ Bu model, çok çeşitli sanatçılardan toplanan gerçek dünya rap şarkı sö
 * Üretilen metinler, geliştiricinin kişisel görüşlerini **yansıtmaz** ve toplumsal normlara uygun olmayabilir.
 
 Bu modelin çıktıları, bu riskler göz önünde bulundurularak ve sorumlu bir şekilde kullanılmalıdır.
+
+### Deney Sonuçları Tablosu
+
+| Deney Kodu     | `num_train_epochs` (Tur) | `per_device_train_batch_size` (Paket) | Eğitim Süresi (Yaklaşık) | Son `Training Loss` Değeri                                                       |
+|:---------------|:-------------------------|:--------------------------------------|:-------------------------|:---------------------------------------------------------------------------------|
+| **v1 (Temel)** | 3                        | 2                                     | ~1 dakika  36 saniye     | **4.59** -> **4.24** -> **3.89** -> **3.60**                                     | 
+| **v2**         | 8                        | 4                                     | ~2 dakika  56 saniye     | **4.43** -> **3.81** -> **3.41** -> **3.14** -> **2.85** -> **2.64**             |
+| **v3**         | 8                        | 4                                     | ~3 dakika  44 saniye     | **4.43** -> **3.81** -> **3.39** -> **3.10** -> **2.75** -> **2.50** -> **2.36** |

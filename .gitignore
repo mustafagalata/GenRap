@@ -12,3 +12,4 @@ __pycache__/
 raw_data/
 processed_data/
 data_processing.py
+genrap-model
