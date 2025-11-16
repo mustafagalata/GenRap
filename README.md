@@ -78,8 +78,8 @@ En iyi modeli bulmak için `num_train_epochs` (tur sayısı) gibi hiperparametre
 
 ```bash
 # Projeyi klonlayın
-git clone [https://github.com/mustafagalata/GenRap](https://github.com/mustafagalata/GenRap)
-cd GenRap-Lyric-Generation
+git clone https://github.com/mustafagalata/GenRap.git
+cd GenRap
 
 # Sanal ortamı kurun ve aktive edin
 python -m venv venv
